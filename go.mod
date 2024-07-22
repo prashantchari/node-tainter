@@ -1,11 +1,11 @@
 module dev.azure.com/msazure/One/_git/azure-iot-atlas.git/node-tainter
 
 go 1.21.4
-toolchain go1.22.2
+toolchain go1.22.5
 
 require (
-	k8s.io/api v0.30.1
-	k8s.io/apimachinery v0.30.1
+	k8s.io/api v0.30.3
+	k8s.io/apimachinery v0.30.3
 )
 
 require (
@@ -44,7 +44,7 @@ require (
 	golang.org/x/text v0.15.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/client-go v0.30.1
+	k8s.io/client-go v0.30.3
 	k8s.io/klog/v2 v2.120.1 // indirect
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
